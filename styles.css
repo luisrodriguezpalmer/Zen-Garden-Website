@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue;
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Centering the Logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto; /* Centers the container itself */
+    width: fit-content;
+}
+
+/* Logo Styling */
+.logo-container img {
+    max-width: 70%; /* Adjust size as needed */
+    height: auto;
+}
+
+.logo-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto; /* Centers the container itself */
+    width: fit-content;
+}
+
+/* Logo Styling */
+.logo-container1 img {
+    width: 50%; /* Adjust size as needed */
+    height: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    gap: 20px; /* Adds space between images */
+}
+
+.image-row img {
+    width: 30%; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
